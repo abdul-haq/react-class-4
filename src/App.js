@@ -14,7 +14,7 @@ function App() {
       </header>
       <div>
   <h1>Value of counter {count}</h1>
-  <button onClick={()=>{setCount(++count)}}>Add Count</button>
+  <button onClick={()=>{setCount(++count)}}>counter add</button>
   
       </div>
      <br></br>
