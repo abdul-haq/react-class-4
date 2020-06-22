@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import logo from './logo.svg';
 import bulboff from './images/OFFbulb.jpg';
 import bulbon from './images/ONbulb.jpg'
+import Counter from './Counter.js';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <div>
-  <h1>Value of counter {count}</h1>
+  <Counter counter={count} />
   <button onClick={()=>{setCount(++count)}}>counter add</button>
   
       </div>
